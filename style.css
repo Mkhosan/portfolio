@@ -1,0 +1,311 @@
+/*
+ * Globals
+ */
+
+ *{
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+ }
+
+
+
+/*
+ * Base structure
+ */
+
+body {
+}
+
+
+
+/*
+ * Header
+ */
+ /* CSS to resize background image */
+ .banner-wrap {
+  background-image: url('https://scontent-mrs2-1.xx.fbcdn.net/v/t39.30808-6/348811710_269085455565174_9132893921349764784_n.jpg?stp=c0.23.206.206a_cp6_dst-jpg_p206x206&_nc_cat=100&ccb=1-7&_nc_sid=0df3a7&_nc_eui2=AeGETHyP-b-Y7eGnmh9yUx5wXzQkCKErFYpfNCQIoSsVigQRe4Qz9ITN0C_uVXm2NZz8gfSgwuk7vnnKOPpFHjg1&_nc_ohc=D8lgT0Wbx-IAX_RlrG3&_nc_ht=scontent-mrs2-1.xx&oh=00_AfB9LPZFTw3XrI2dir1t3xNtijPv-qiWx56kQrnWyzZ4Uw&oe=65172CD5');
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
+}
+
+ .banner-wrap {
+  background-image: url(./assets/banner.jpeg);
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position: center;
+  position: relative;
+  z-index: 1;
+}
+.overlay {
+  z-index: -1;
+  height: 100%;
+  width: 100%;
+  background: black;
+  opacity: 30%;
+  position: absolute;
+  top: 0;
+}
+
+
+.nav-masthead .nav-link {
+  padding: .25rem 0;ß
+  font-weight: 700;
+  color: rgba(255, 255, 255, .5);
+  background-color: transparent;
+  border-bottom: .25rem solid transparent;
+}
+
+.nav-masthead .nav-link:hover,
+.nav-masthead .nav-link:focus {
+  border-bottom-color: rgba(255, 255, 255, .25);
+}
+
+.nav-masthead .nav-link + .nav-link {
+  margin-left: 1rem;
+}
+
+.nav-masthead .active {
+  color: #fff;
+  border-bottom-color: #fff;
+}
+
+<!doctype html>
+<html lang="en" class="h-100">
+  <head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <meta name="description" content="">
+    <meta name="author" content="Mark Otto, Jacob Thornton, and Bootstrap contributors">
+    <meta name="generator" content="Hugo 0.84.0">
+    <link rel="icon" href="assets/download.jpeg" type="image/jpeg" />
+    <title>Portfolio | Bongani Ntshangase</title>
+
+    <link rel="canonical" href="https://getbootstrap.com/docs/5.0/examples/cover/">
+
+    
+
+    <!-- Bootstrap core CSS -->
+<link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-EVSTQN3/azprG1Anm3QDgpJLIm9Nao0Yz1ztcQTwFspd3yD65VohhpuuCOmLASjC" crossorigin="anonymous">
+    <style>
+      .bd-placeholder-img {
+        font-size: 1.125rem;
+        text-anchor: middle;
+        -webkit-user-select: none;
+        -moz-user-select: none;
+        user-select: none;
+      }
+
+      @media (min-width: 768px) {
+        .bd-placeholder-img-lg {
+          font-size: 3.5rem;
+        }
+      }
+    </style>
+
+    
+    <!-- Custom styles for this template -->
+    <link href="style.css" rel="stylesheet">
+  </head>
+  <body class="bg-light">
+
+    
+<div class="banner-wrap vh-100 vw-100 text-white">
+  <div class="overlay"></div>
+
+  <header class="p-5 p-3 text-white">
+    <div>
+      <h3 class="float-md-start text-center">Portfolio</h3>
+      <nav class="nav nav-masthead justify-content-center float-md-end">
+        <a class="nav-link active" aria-current="page" href="#">Home</a>
+        <a class="nav-link" href="#">Features</a>
+        <a class="nav-link" href="#">Contact</a>
+      </nav>
+    </div>
+  </header>
+  <main class="d-flex flex-column align-items-center justify-content-center h-75 text-center">
+    <h1 class="display-1">I am Bongani Ntshangase</h1>
+    <p class="lead">Fullstack Java Developer.Entrepreneur</p>
+  </main>
+</div>
+<section>
+  <div class="container p-5">
+    <div class="card">
+      <div class="card-body p-3">
+        <div class="row p-3">
+          <div class="col-md-6 col-sm-12">
+            <div class="row">
+              <div class="col-md-5">
+                <img src="https://scontent.fjnb9-1.fna.fbcdn.net/v/t39.30808-6/346853405_156395117438864_2867655508898363654_n.jpg?_nc_cat=109&ccb=1-7&_nc_sid=5614bc&_nc_eui2=AeHDHRlGA6AVtd4VUwU-HET0AZkFhqALrjYBmQWGoAuuNnbomPrrCr61VPxT40ZY0tJnjXtYG2Hn2QtKizQtDESx&_nc_ohc=V7G8QA0yGrIAX-2aTO_&_nc_zt=23&_nc_ht=scontent.fjnb9-1.fna&oh=00_AfChAMcyA--hIE1UKri5gKMJcJbVGViQJdIu6LOvP6T8ug&oe=6517117C" class="img-fluid" alt="...">
+                
+
+              </div>
+              
+              <div class="col-md-7 mt-3">
+               <p><strong>Name:</strong> Bongani Ntshangase</p>
+                <p><strong>Profile:</strong> Fullstack Developer</p>
+                <p><strong>Email:</strong> bonganimletheni2@gmail.com</p>
+                <p><strong>Phone:</strong> 0655409190</p>
+                <p><strong>Skills:</strong>
+                  <span class="badge rounded-pill bg-dark">Java</span>
+                  <span class="badge rounded-pill bg-dark">Spring</span>
+                  <span class="badge rounded-pill bg-dark">SpringBoot</span>
+                  <span class="badge rounded-pill bg-dark">SQL</span>
+                  <span class="badge rounded-pill bg-dark">HTML</span>
+                  <span class="badge rounded-pill bg-dark">CSS</span>
+                  <span class="badge rounded-pill bg-dark">Bootstrap</span>
+                  <span class="badge rounded-pill bg-dark">Git</span>
+                  <span class="badge rounded-pill bg-dark">firebase</span>
+                  <span class="badge rounded-pill bg-dark">OOP</span>
+                  <span class="badge rounded-pill bg-dark">ReactJS</span>
+                  <span class="badge rounded-pill bg-dark">NodeJS</span>
+                  <span class="badge rounded-pill bg-dark">MongoDB</span>
+                  <span class="badge rounded-pill bg-dark">Express</span>
+                </p>
+              </div>
+
+            </div>
+
+          </div>
+          <div class="col-md-6">
+            <h1 class="text-center text-md-start"><mark>About me</mark></h1>
+            <p class="lead">As a seasoned Full Stack Java Developer, I bring a unique blend of technical expertise and entrepreneurial acumen to every project. With a strong foundation in Java core programming, Spring, Spring Boot, and a mastery of front-end technologies like JavaScript, HTML, CSS, Bootstrap, and React, I excel at crafting dynamic and user-friendly web applications. Beyond my technical skills, I possess a deep understanding of financial concepts and the ability to communicate effectively, making me a versatile problem solver in the world of web development. I'm passionate about turning innovative ideas into functional and aesthetically pleasing solutions, and I look forward to collaborating with you to bring your vision to life.</p>
+          </div>
+
+        </div>
+      </div>
+
+    </div>
+   
+  </div>
+</section>
+
+<section>
+  <div class="container p-3">
+    <h1 class="text-center"><mark>Projects</mark></h1>
+    <div class="row">
+      <div class="col-md-4 mt-3">
+        <div class="card">
+          <img
+            src="https://zaiocontent.s3.eu-west-2.amazonaws.com/images+of+courses/html_netflix.png"
+            class="card-img-top"
+            alt="..."
+          />
+          <div class="card-body">
+            <h5 class="card-title">Netflix landing page</h5>
+            <p class="card-text">Built this with HTML & CSS.</p>
+            <a href="#" class="btn btn-primary">View Website</a>
+            <a href="#" class="btn btn-primary">View Code</a>
+          </div>
+        </div>
+      </div>
+
+      <div class="col-md-4 mt-3">
+        <div class="card">
+          <img
+            src="http://res.cloudinary.com/ak-124210/image/upload/v1642434078/yjnzwmihmhghxkwnb6n9.png"
+            class="card-img-top"
+            alt="..."
+          />
+          <div class="card-body">
+            <h5 class="card-title">Twitter Clone Landing Page</h5>
+            <p class="card-text">Solo project built with HTML & CSS.</p>
+            <a href="#" class="btn btn-primary">View Website</a>
+            <a href="#" class="btn btn-primary">View Code</a>
+          </div>
+        </div>
+      </div>
+
+      <div class="col-md-4 mt-3">
+        <div class="card">
+          <img
+            src="https://zaiocontent.s3.eu-west-2.amazonaws.com/images+of+courses/Tesla.png"
+            class="card-img-top"
+            alt="..."
+          />
+          <div class="card-body">
+            <h5 class="card-title">Tesla Clone Landing Page</h5>
+            <p class="card-text">Built this with HTML & CSS.</p>
+            <a href="#" class="btn btn-primary">View Website</a>
+            <a href="#" class="btn btn-primary">View Code/a>
+          </div>
+        </div>
+      </div>
+
+      <div class="col-md-4 mt-3">
+        <div class="card">
+          <img
+            src="https://zaiocontent.s3.eu-west-2.amazonaws.com/images+of+courses/html_css_gk.png"
+            class="card-img-top"
+            alt="..."
+          />
+          <div class="card-body">
+            <h5 class="card-title">Google Keep Clone</h5>
+            <p class="card-text">Built this with HTML & CSS.</p>
+            <a href="#" class="btn btn-primary">View Website</a>
+            <a href="#" class="btn btn-primary">View Code</a>
+          </div>
+        </div>
+      </div>
+
+      <div class="col-md-4 mt-3">
+        <div class="card">
+          <img
+            src="https://zaiocontent.s3.eu-west-2.amazonaws.com/images+of+courses/bootstrap.png"
+            class="card-img-top"
+            alt="..."
+          />
+          <div class="card-body">
+            <h5 class="card-title">Bootstrap Portfolio </h5>
+            <p class="card-text">Built with HTML & CSS and Bootstrap.</p>
+            <a href="#" class="btn btn-primary">View Website</a>
+            <a href="#" class="btn btn-primary">View Code</a>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+</section>
+
+
+  <!-- Code injected by live-server -->
+<script>
+	// <![CDATA[  <-- For SVG support
+	if ('WebSocket' in window) {
+		(function () {
+			function refreshCSS() {
+				var sheets = [].slice.call(document.getElementsByTagName("link"));
+				var head = document.getElementsByTagName("head")[0];
+				for (var i = 0; i < sheets.length; ++i) {
+					var elem = sheets[i];
+					var parent = elem.parentElement || head;
+					parent.removeChild(elem);
+					var rel = elem.rel;
+					if (elem.href && typeof rel != "string" || rel.length == 0 || rel.toLowerCase() == "stylesheet") {
+						var url = elem.href.replace(/(&|\?)_cacheOverride=\d+/, '');
+						elem.href = url + (url.indexOf('?') >= 0 ? '&' : '?') + '_cacheOverride=' + (new Date().valueOf());
+					}
+					parent.appendChild(elem);
+				}
+			}
+			var protocol = window.location.protocol === 'http:' ? 'ws://' : 'wss://';
+			var address = protocol + window.location.host + window.location.pathname + '/ws';
+			var socket = new WebSocket(address);
+			socket.onmessage = function (msg) {
+				if (msg.data == 'reload') window.location.reload();
+				else if (msg.data == 'refreshcss') refreshCSS();
+			};
+			if (sessionStorage && !sessionStorage.getItem('IsThisFirstTime_Log_From_LiveServer')) {
+				console.log('Live reload enabled.');
+				sessionStorage.setItem('IsThisFirstTime_Log_From_LiveServer', true);
+			}
+		})();
+	}
+	else {
+		console.error('Upgrade your browser. This Browser is NOT supported WebSocket for Live-Reloading.');
+	}
+	// ]]>
+</script>
+</body>
+</html>
